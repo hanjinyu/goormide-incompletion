@@ -1,0 +1,13 @@
+spring.jpa.jibernate.ddl-auto=update
+spring.jpa.show-sql = true
+spring.jpa.general-ddl = true
+spring.jpa.database = mysql
+
+#Database Configuration
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost/finaldb?serverTimezone = UTC&characterEncoding=UTF8
+spring.datasource.username = root
+spring.datasourece.password = iot1234
+
+spring.mvc.view.prifix = /WEB-INF/views/
+spring.mvc.view.suffix=.jsp
